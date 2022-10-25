@@ -5,22 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My First dApp</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
+    <header>
+      <nav>
+        <span
+          >Help us improve by contributing to this project on
+          <a href="https://github.com/Susmita-Dey/dApp" target="_blank"
+            >GitHub</a
+          >!!</span
+        >
+      </nav>
+    </header>
     <div>
-      <h1>This is my dApp!</h1>
-      <p>Here we can set or get the mood:</p>
+      <h1>Susmita's dApp!</h1>
+      <p>Here we can set or get the mood.</p>
       <label for="mood">Input Mood:</label><br />
       <input type="text" id="mood" />
       <button onclick="getMood()">Get Mood</button>
       <button onclick="setMood()">Set Mood</button>
+      <span class="console">Check Console</span>
     </div>
+    <footer>
+      Special Thanks to
+      <span
+        ><a href="https://learnweb3.io/" target="_blank">
+          @LearnWeb3DAO</a
+        ></span
+      >.<br />Made with 💖 by
+      <a href="https://susmita-dey.vercel.app/" target="_blank">Susmita Dey</a>.
+    </footer>
 
+    <!-- Ether.js CDN -->
     <script
       src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
       type="application/javascript"
     ></script>
-    <script src="index.js"></script>
+    <script src="src/index.js"></script>
   </body>
 </html>

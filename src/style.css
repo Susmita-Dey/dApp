@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("https://cdn.pixabay.com/photo/2019/12/02/10/38/web-4667382_960_720.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  padding: 2vh;
+  background-color: rgb(0, 0, 5);
+  color: white;
+}
+
+div {
+  width: 40%;
+  margin: 7vh auto;
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  padding: 5rem;
+}
+
+label {
+  font-weight: bold;
+  margin: 0.8rem 0 auto;
+}
+
+input {
+  border: 2px solid rgb(0, 132, 255);
+  padding: 0.5rem;
+  margin-bottom: 0.8rem;
+  border-radius: 10px;
+}
+
+a {
+  color: rgb(0, 132, 255);
+  text-decoration: dotted;
+}
+
+button {
+  width: 100%;
+  margin: 10px 0px 5px 0px;
+  background-color: rgb(255, 47, 161);
+  color: antiquewhite;
+  font-size: medium;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  border: none;
+  padding: 10px 5px;
+  border-radius: 25px;
+}
+
+.console {
+  margin-top: 5px;
+  font-weight: 550;
+  font-style: italic;
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 0.8rem;
+  color: antiquewhite;
+  background-color: black;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 25px;
+  }
+  header {
+    padding: 0.8vh;
+  }
+
+  div {
+    width: 50vw;
+    margin: 10vh auto;
+    padding: 2.5rem;
+  }
+  label {
+    margin: 0.5rem 0 auto;
+  }
+
+  input {
+    padding: 0.2rem;
+    margin-bottom: 0.4rem;
+  }
+
+  button {
+    margin: 5px 0px 3px 0px;
+    font-size: small;
+    padding: 5px 3px;
+  }
+
+  footer {
+    padding: 0.7rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  h1 {
+    font-size: 30px;
+  }
+  header {
+    padding: 1vh;
+  }
+
+  div {
+    width: 50vw;
+    margin: 10vh auto;
+    padding: 5rem;
+  }
+  label {
+    margin: 1rem 0 auto;
+  }
+
+  input {
+    padding: 0.5rem;
+    margin-bottom: 0.8rem;
+  }
+
+  button {
+    margin: 10px 0px 5px 0px;
+    font-size: large;
+    padding: 10px 5px;
+  }
+
+  footer {
+    padding: 1rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  ...;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  ...;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  ...;
+}
