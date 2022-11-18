@@ -44,7 +44,7 @@ provider.send("eth_requestAccounts", []).then(() => {
 });
 
 async function getMood() {
-  const getMoodPromise = MoodContract.getMood();
+  const getMoodPromise = MoodContract.mood();
   const Mood = await getMoodPromise;
   document.getElementById("console").innerText = `The mood is ${Mood}.`;
   console.log(Mood);
